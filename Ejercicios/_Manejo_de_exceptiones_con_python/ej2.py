@@ -7,8 +7,6 @@ def DivisionNumeros():
                 
                 if(input("quiere continuar?") != "si"):
                     break
-            except ValueError:
-                print("Ingrese un numero no otra cosa porfavor")
             except ZeroDivisionError:
                 print("el segundo numero no puede ser 0")
     
